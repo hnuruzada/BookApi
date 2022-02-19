@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4dc1f578-1b32-46dd-b50c-b3986eaf25dd": {
+      "ProjectGuid": "4dc1f578-1b32-46dd-b50c-b3986eaf25dd",
+      "DisplayName": "BookAPI",
+      "ColorIndex": 0
+    },
+    "0fad7e73-de0c-4950-8c86-98d49963dacb": {
+      "ProjectGuid": "0fad7e73-de0c-4950-8c86-98d49963dacb",
+      "DisplayName": "BookMVC",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

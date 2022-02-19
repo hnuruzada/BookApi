@@ -1,0 +1,45 @@
+﻿@model AuthorListDto
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Authors</h1>
+<div style="display:flex;justify-content:flex-end">
+    <a asp-controller="author" asp-action="create" class="btn btn-success" style="margin:20px 10px">Create</a>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-8 mx-auto">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Name</th>
+                         <th scope="col">Surname</th>
+                        <th scope="col">Image</th>
+                        <th scope="col">Settings</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Items)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Name</td>
+                            <td>@item.Surname</td>
+                            <td>@item.Image</td>
+                            <td>
+                                <a asp-controller="author" asp-action="delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                                <a asp-controller="author" asp-action="edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+     </div>
+  
