@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace BookAPI.Apps.UserApi.Controllers
 {
+    [ApiExplorerSettings(GroupName = "user_v1")]
     [Route("api/[controller]")]
     [ApiController]
     public class AccountsController : ControllerBase

@@ -11,6 +11,7 @@ using System.Linq;
 
 namespace BookAPI.Apps.AdminApi.Controllers
 {
+    [ApiExplorerSettings(GroupName = "admin_v1")]
     [Route("admin/api/[controller]")]
     [ApiController]
     public class GenresController : ControllerBase

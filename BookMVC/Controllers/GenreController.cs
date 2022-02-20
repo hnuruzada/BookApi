@@ -16,14 +16,14 @@ namespace BookMVC.Controllers
         {
             
            
-            GenreListDto listDto;
+           GenreListItemDto listDto;
             using (HttpClient client = new HttpClient())
             {
                 var response = await client.GetAsync("https://localhost:44366/admin/api/genres");
                 var responseStr = await response.Content.ReadAsStringAsync();
                 if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
-                    listDto = JsonConvert.DeserializeObject<GenreListDto>(responseStr);
+                    listDto = JsonConvert.DeserializeObject<GenreListItemDto>(responseStr);
                     return View(listDto);
                 }
             }

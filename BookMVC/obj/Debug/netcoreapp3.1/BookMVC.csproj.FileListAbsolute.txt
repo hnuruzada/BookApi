@@ -165,3 +165,9 @@ C:\Users\Hesen\source\repos\BookAPI\BookMVC\obj\Debug\netcoreapp3.1\Razor\Views\
 C:\Users\Hesen\source\repos\BookAPI\BookMVC\obj\Debug\netcoreapp3.1\Razor\Views\Genre\Edit.cshtml.g.cs
 C:\Users\Hesen\source\repos\BookAPI\BookMVC\obj\Debug\netcoreapp3.1\Razor\Views\Author\Edit.cshtml.g.cs
 C:\Users\Hesen\source\repos\BookAPI\BookMVC\obj\Debug\netcoreapp3.1\Razor\Views\Book\Index.cshtml.g.cs
+C:\Users\Hesen\source\repos\BookAPI\BookMVC\obj\Debug\netcoreapp3.1\Razor\Views\Book\Create.cshtml.g.cs
+C:\Users\Hesen\source\repos\BookAPI\BookMVC\obj\Debug\netcoreapp3.1\Razor\Views\Book\Edit.cshtml.g.cs
+C:\Users\Hesen\source\repos\BookAPI\BookMVC\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Hesen\source\repos\BookAPI\BookMVC\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Hesen\source\repos\BookAPI\BookMVC\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Hesen\source\repos\BookAPI\BookMVC\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll

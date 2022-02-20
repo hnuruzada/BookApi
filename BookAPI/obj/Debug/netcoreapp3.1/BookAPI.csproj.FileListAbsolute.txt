@@ -71,3 +71,7 @@ C:\Users\Hesen\source\repos\BookAPI\BookAPI\bin\Debug\netcoreapp3.1\Microsoft.As
 C:\Users\Hesen\source\repos\BookAPI\BookAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Hesen\source\repos\BookAPI\BookAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Hesen\source\repos\BookAPI\BookAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Hesen\source\repos\BookAPI\BookAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Hesen\source\repos\BookAPI\BookAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Hesen\source\repos\BookAPI\BookAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Hesen\source\repos\BookAPI\BookAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
